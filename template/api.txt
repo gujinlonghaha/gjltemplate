@@ -1,0 +1,26 @@
+/**
+ * 请求统一管理
+ */
+const Api = {
+    counorgUrl: `${PROXY}/api/v1/basic/basic/counorg`,  //预案管理
+};
+
+
+/**
+ * 
+ * @param {*} params
+ */
+export const getRescontent = (params) => {
+    return Request.get(Api.rescontentUrl, params);
+};
+export const delRescontent = (params) => {
+    return Request.delete(`${Api.rescontentUrl}/${params}`);
+};
+export const putRescontent = (params) => {
+    return Request.put(`${Api.rescontentUrl}`, params);
+};
+export const posRrescontent = (params) => {
+    return Request.post(`${Api.rescontentUrl}`, params);
+};
+
+
