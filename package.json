@@ -1,7 +1,9 @@
 {
 	"name": "gjl-template",
 	"displayName": "gjl-template",
+	"author": "gjl",
 	"description": "",
+	"icon": "img/logo.png",
 	"publisher": "gjl",
 	"version": "0.0.1",
 	"engines": {
